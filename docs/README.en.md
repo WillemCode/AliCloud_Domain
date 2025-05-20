@@ -4,7 +4,7 @@
 
 Automatically identifies domain ownership across accounts, supporting add/delete/modify/query operations to solve multi-account management chaos.
 
-![UI Screenshot](./images/001.png)
+![UI Screenshot](../images/001.png)
 
 ---
 ## ✨ Features
@@ -57,15 +57,15 @@ aliyun_accounts:
 ---
 ## 📸 Examples
 ### Add Record
-![Add Record](./images/002.png)
+![Add Record](../images/002.png)
 ### Delete Record
-![Delete Record](./images/003.png)
+![Delete Record](../images/003.png)
 ### Modify Record
-![Modify Record](./images/004.png)
+![Modify Record](../images/004.png)
 ### Query Records
-![Query Records](./images/005.png)
+![Query Records](../images/005.png)
 ### Fuzzy Search
-![Fuzzy Search](./images/006.png)
+![Fuzzy Search](../images/006.png)
 ---
 ## ⚙️ Tech Stack
 - **Language**: Go
