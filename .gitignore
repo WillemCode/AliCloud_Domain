@@ -1,0 +1,25 @@
+# MacOS
+.DS_Store
+._*
+# Windows
+Thumbs.db
+Desktop.ini
+# Linux
+*~
+# Vim
+*.swp
+*.swo
+# ENV
+.env
+.env.local
+.env.development
+.env.test
+# vscode
+.vscode
+# 敏感配置
+*.key
+*.pem
+*.cert
+config.yml
+config.xml
+config.yaml
