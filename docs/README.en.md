@@ -1,7 +1,11 @@
 # Alibaba Cloud Domain Management Tool
+
 🔍 **A lightweight tool for managing multi-account Alibaba Cloud DNS records**
+
 Automatically identifies domain ownership across accounts, supporting add/delete/modify/query operations to solve multi-account management chaos.
+
 ![UI Screenshot](./images/001.png)
+
 ---
 ## ✨ Features
 - **Multi-account Support**: Configure multiple AK/SK pairs with automatic domain matching
@@ -73,16 +77,23 @@ aliyun_accounts:
 - **PRs**: Contributions welcome for new features/optimizations/docs
 ---
 ## 📜 License
+
 Licensed under [GNU General Public License (GPL)](./LICENSE).
 This means:
 - You may copy, modify and distribute the software, but derivative works must remain under GPL
 - Distributions must include original copyright notice and full source code
+
 ---
 ## 🙋 FAQ
+
 **Q: How are AK/SK credentials secured?**
+
 A: Stored only in local `config.yaml`, never uploaded.
+
 **Q: International Alibaba Cloud supported?**
+
 A: Yes, just modify the SDK's `Endpoint`.
+
 ---
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=WillemCode/AliCloud_Domain&type=Date)](https://www.star-history.com/#WillemCode/AliCloud_Domain&Date)

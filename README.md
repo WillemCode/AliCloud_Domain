@@ -6,9 +6,13 @@
   <p align="center">简体中文 | <a href="./docs/README.tc.md">繁体中文</a> | <a href="./docs/README.en.md">English</a> | <a href="./docs/README.ja.md">日本語</a><br></p>
 
 # 阿里云域名管理工具
+
 🔍 **一个快速管理多账号阿里云域名解析的小工具**
+
 自动识别域名所属账号，支持添加、删除、修改、查询解析记录，解决多账号域名管理的混乱问题。
+
 ![运行界面](./images/001.png)
+
 ---
 ## ✨ 功能特性
 - **多账号支持**：同时配置多个阿里云 AK/SK，自动匹配域名所属账号。
@@ -93,10 +97,15 @@ aliyun_accounts:
 
 ---
 ## 🙋 常见问题
+
 **Q: 如何保证 AK/SK 的安全性？**
+
 A: 所有凭据仅存储在本地配置文件中（如 `config.yaml`），**不会上传到服务器**。
+
 **Q: 支持国际版阿里云吗？**
+
 A: 是，修改 SDK 的 `Endpoint` 即可。
+
 ---
 
 ## Star History

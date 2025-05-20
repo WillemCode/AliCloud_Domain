@@ -1,6 +1,11 @@
 # 阿里雲域名管理工具
+
 🔍 **一個快速管理多賬號阿里雲域名解析的小工具**
+
 自動識別域名所屬賬號，支援添加、刪除、修改、查詢解析記錄，解決多賬號域名管理的混亂問題。
+
+![UI Screenshot](./images/001.png)
+
 ---
 ## ✨ 功能特性
 - **多賬號支援**：同時配置多個阿里雲 AK/SK，自動匹配域名所屬賬號。
@@ -73,16 +78,23 @@ aliyun_accounts:
 - **Pull Requests**：歡迎參與貢獻新的功能、優化或文檔修復。
 ---
 ## 📜 開源協議
+
 本項目採用 [GNU General Public License (GPL)](./LICENSE) 進行開源發布。
 這意味著：
 - 你可以自由複製、修改和分發本項目的源代碼，但修改後的項目也必須繼續以 GPL 或兼容的許可證進行發布；
 - 分發或發布時，需包含本項目的原始版權聲明與 GPL 協議文本，並提供完整的源代碼獲取方式。
+
 ---
 ## 🙋 常見問題
+
 **Q: 如何保證 AK/SK 的安全性？**
+
 A: 所有憑據僅存儲在本地配置文件中（如 `config.yaml`），**不會上傳到服務器**。
+
 **Q: 支援國際版阿里雲嗎？**
+
 A: 是，修改 SDK 的 `Endpoint` 即可。
+
 ---
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=WillemCode/AliCloud_Domain&type=Date)](https://www.star-history.com/#WillemCode/AliCloud_Domain&Date)

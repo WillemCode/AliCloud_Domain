@@ -1,7 +1,11 @@
 # 阿里雲ドメイン管理ツール
+
 🔍 **複数アカウントの阿里雲DNSレコードを管理する軽量ツール**
+
 ドメインの所有アカウントを自動識別し、追加/削除/変更/検索操作をサポート
+
 ![UI画面](./images/001.png)
+
 ---
 ## ✨ 特徴
 - **複数アカウント対応**: 複数のAK/SKを設定可能
@@ -73,15 +77,22 @@ aliyun_accounts:
 - **PR**: 機能追加/最適化/文書修正歓迎
 ---
 ## 📜 ライセンス
+
 [GNU General Public License (GPL)](./LICENSE) で公開:
 - 改変・再配布可能ですが、派生作品もGPLで公開必須
 - 著作権表示とソースコード提供が条件
+
 ---
 ## 🙋 よくある質問
+
 **Q: AK/SKの安全性は?**
+
 A: ローカル`config.yaml`にのみ保存、アップロードなし
+
 **Q: 国際版阿里雲対応?**
+
 A: SDKの`Endpoint`変更で可能
+
 ---
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=WillemCode/AliCloud_Domain&type=Date)](https://www.star-history.com/#WillemCode/AliCloud_Domain&Date)
